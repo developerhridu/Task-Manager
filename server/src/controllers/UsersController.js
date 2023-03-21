@@ -9,7 +9,7 @@ exports.registration = (req, res) => {
             res.status(400).json({status: 'error', data:err});
         }
         else{
-            res.status(200).json({status: 'ok', data:err});
+            res.status(200).json({status: 'ok', data:data});
         }
     })
 }
@@ -33,5 +33,19 @@ exports.login=(req,res)=>{
                 res.status(401).json({status:"unauthorized"})
             }
         }
+    })
+}
+exports.profileUpdate = (req, res) => {
+    let email = req.headers['email'];
+    let reqBody = req.body;
+
+    UsersModel.updateOne({email: email}, reqBody, (err, data) => {
+        if(err){
+            res.status(400).json({status:"fail",data:err})
+        }
+        else{
+            res.status(200).json({status: 'ok', data:data});
+        }
+
     })
 }
