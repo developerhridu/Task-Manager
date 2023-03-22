@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "b709fbf9-e604-4893-92d8-538586ead9cf",
+		"name": "Task-Manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24273931"
+	},
+	"item": [
+		{
+			"name": "registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"hridu.hstu@gmail.com\",\n    \"firstName\": \"MR\",\n    \"lastName\": \"Hridu\",\n    \"mobile\": \"00435825\",\n    \"password\": \"hridu2277\",\n    \"photo\" : \"xhofihf\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/registration",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"hridu.hstu@gmail.com\",\n    \"password\" : \"hridu2277\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/login",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "profileUpdate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mobile\": \"23070326\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/profileUpdate",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"profileUpdate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createTask",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/createTask",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"createTask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateTaskStatus",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/updateTaskStatus/6419a0ad626b09a1c885096f/completed",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"updateTaskStatus",
+						"6419a0ad626b09a1c885096f",
+						"completed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteTask",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/deleteTask/64199fe9626b09a1c885096d",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"deleteTask",
+						"64199fe9626b09a1c885096d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listTaskByStatus",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/listTaskByStatus/new",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"listTaskByStatus",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "taskStatusCount",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/taskStatusCount",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"taskStatusCount"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "http://localhost:5050/api/v1",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODM2MjMsImRhdGEiOiJocmlkdS5oc3R1QGdtYWlsLmNvbSIsImlhdCI6MTY3OTM5NzIyM30.ITxk9IxCEAXaJDoZL3PGxg7TP8HIhH82D3_crOICCb8",
+			"type": "string"
+		}
+	]
+}
