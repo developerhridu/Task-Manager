@@ -1,6 +1,8 @@
 import React, {Fragment, useRef} from 'react';
 import {Link,NavLink,BrowserRouter,HashRouter} from "react-router-dom";
 import {ErrorToast, IsEmail, IsEmpty} from "../../helper/FormHelper";
+import {LoginRequest} from "../../APIRequest/APIRequest";
+
 
 
 
@@ -16,15 +18,15 @@ const Login = () => {
         else if(IsEmpty(pass)){
             ErrorToast("Password Required")
         }
-        // else{
-        //     LoginRequest(email,pass).then((result)=>{
-        //         if(result===true){
-        //             window.location.href="/"
-        //         }
-        //     })
-        //
-        //
-        // }
+        else{
+            LoginRequest(email,pass).then((result)=>{
+                if(result===true){
+                    window.location.href="/"
+                }
+            })
+
+
+        }
     }
 
     return (

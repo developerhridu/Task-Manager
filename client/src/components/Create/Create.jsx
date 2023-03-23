@@ -2,7 +2,7 @@ import React, {useRef} from 'react';
 import {Container, Row} from "react-bootstrap";
 import {ErrorToast, IsEmpty} from "../../helper/FormHelper";
 import {useNavigate} from "react-router-dom";
-// import {NewTaskRequest} from "../../APIRequest/APIRequest";
+import {NewTaskRequest} from "../../APIRequest/APIRequest";
 const Create = () => {
     let titleRef,descriptionRef=useRef();
     let navigate = useNavigate ();
@@ -16,13 +16,13 @@ const Create = () => {
         else if(IsEmpty(description)){
             ErrorToast("Description Required")
         }
-        // else {
-        //     NewTaskRequest(title,description).then((res)=>{
-        //         if(res===true){
-        //             navigate("/All")
-        //         }
-        //     })
-        // }
+        else {
+            NewTaskRequest(title,description).then((res)=>{
+                if(res===true){
+                    navigate("/All")
+                }
+            })
+        }
     }
 
     return (
