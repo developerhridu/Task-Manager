@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b5661f6-6640-45e2-b915-dc37380d5e19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/AccountRecover/Create-Password.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/AccountRecover/Send-OTP.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/AccountRecover/Verify-OTP.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/AccountRecover/Create-Password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/AccountRecover/Send-OTP.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/AccountRecover/Verify-OTP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/AccountRecover/Create-Password-Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/AccountRecover/Send-OTP-Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/AccountRecover/Verify-OTP-Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/models/OTPModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/utility/SendEmailUtility.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/APIRequest/APIRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/APIRequest/APIRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Forgetpass-Page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Forgetpass-Page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/controllers/UsersController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/UsersController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/api.js" afterDir="false" />
     </list>
@@ -60,7 +79,7 @@
       <workItem from="1679511859120" duration="619000" />
       <workItem from="1679540693390" duration="11000" />
       <workItem from="1679556185727" duration="12308000" />
-      <workItem from="1679637219452" duration="11534000" />
+      <workItem from="1679637219452" duration="15201000" />
     </task>
     <servers />
   </component>

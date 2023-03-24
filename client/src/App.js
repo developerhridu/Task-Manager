@@ -12,6 +12,9 @@ import RegistrationPage from "./pages/Registration-Page";
 import Page404 from "./pages/Page-404";
 import FullscreenLoader from "./components/masterLayout/Fullscreen-Loader";
 import {getToken} from "./helper/SessionHelper";
+import SendOTPPage from "./pages/AccountRecover/Send-OTP-Page";
+import VerifyOTPPage from "./pages/AccountRecover/Verify-OTP-Page";
+import CreatePasswordPage from "./pages/AccountRecover/Create-Password-Page";
 
 const App = () => {
 
@@ -44,9 +47,9 @@ const App = () => {
                         <Route exact path="/Login" element={<LoginPage />}/>}  />}/>
                         <Route exact path="/Registration" element={<RegistrationPage />}/>} />}/>
 
-                        {/*<Route exact path="/SendOTP" element={<SendOTPPage/>}/>} />}/>*/}
-                        {/*<Route exact path="/VerifyOTP" element={<VerifyOTPPage/>}/>} />}/>*/}
-                        {/*<Route exact path="/CreatePassword" element={<CreatePasswordPage/>}/>} />}/>*/}
+                        <Route exact path="/SendOTP" element={<SendOTPPage/>}/>} />}/>
+                        <Route exact path="/VerifyOTP" element={<VerifyOTPPage/>}/>} />}/>
+                        <Route exact path="/CreatePassword" element={<CreatePasswordPage/>}/>} />}/>
 
                         <Route path="*" element={<Page404/>}/>
                     </Routes>
