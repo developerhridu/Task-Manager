@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b5661f6-6640-45e2-b915-dc37380d5e19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/redux/state-slice/profile-slice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/APIRequest/APIRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/APIRequest/APIRequest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Canceled/Canceled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Canceled/Canceled.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Completed/Completed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Completed/Completed.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Dashboard/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Dashboard/Dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/New/New.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/New/New.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Progress/Progress.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Progress/Progress.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/masterLayout/Master-Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/masterLayout/Master-Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/helper/DeleteAlert.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/helper/DeleteAlert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/helper/UpdateAlert.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/helper/UpdateAlert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/state-slice/task-slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/state-slice/task-slice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/UsersController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/UsersController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +60,7 @@
       <workItem from="1679511859120" duration="619000" />
       <workItem from="1679540693390" duration="11000" />
       <workItem from="1679556185727" duration="12308000" />
-      <workItem from="1679637219452" duration="4170000" />
+      <workItem from="1679637219452" duration="11534000" />
     </task>
     <servers />
   </component>
