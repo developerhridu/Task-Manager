@@ -23,10 +23,10 @@ const App = () => {
                         <Route exact path="/" element={<DashboardPage  />}  />}/>
                         <Route exact path="/Create" element={<CreatePage />}  />}/>
                         <Route exact path="/All" element={<NewPage />}/>}/>
-                        {/*<Route exact path="/Progress"  element={<ProgressPage />}/>} />}/>*/}
-                        {/*<Route exact path="/Completed"  element={<CompletedPage />}/>}  />}/>*/}
-                        {/*<Route exact path="/Canceled" element={<CanceledPage />}/>} />}/>*/}
-                        {/*<Route exact path="/Profile" element={<ProfilePage />}/>}  />}/>*/}
+                        <Route exact path="/Progress"  element={<ProgressPage />}/>} />}/>
+                        <Route exact path="/Completed"  element={<CompletedPage />}/>}  />}/>
+                        <Route exact path="/Canceled" element={<CanceledPage />}/>} />}/>
+                        <Route exact path="/Profile" element={<ProfilePage />}/>}  />}/>
                         <Route path="*" element={<Page404/>}/>
                     </Routes>
                 </BrowserRouter>
